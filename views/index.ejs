@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <%- include('partials/header.ejs'); -%>
     <h1>Add New user</h1>
     <form action="/add" method="POST">
         <label for="firstName">First Name:</label>
@@ -15,5 +16,6 @@
         <input type="text" id="lastName" name="lastName" required>
         <br>
         <button type="submit">Add</button>
+     <%- include('partials/footer.ejs'); -%>
 </body>
 </html>
