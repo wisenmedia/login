@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Authentication</title>
 </head>
 <body>
     <%- include('partials/header.ejs'); -%>
-    <h1>Add New user</h1>
+    <div id="heading">
+        <h1 >User Authentication</h1>
+    </div>
     <form action="/add" method="POST">
-        <label for="firstName">First Name:</label>
+        <label id= "id" for="firstName">First Name:</label>
         <input type="text" id="firstName" name="firstName" required>
         <br>
-        <label for="lastName">Last Name:</label>
+        <label id="id" for="lastName">Last Name:</label>
         <input type="text" id="lastName" name="lastName" required>
         <br>
-        <button type="submit">Add</button>
+        <button  class="submit" type="submit">Submit</button>
      <%- include('partials/footer.ejs'); -%>
 </body>
 </html>
