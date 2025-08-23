@@ -14,39 +14,17 @@ main {
   text-align: left;
   flex: 1 0 auto;
 }
-h1 {
+h1  {
   color: #fff;
   padding: 10px;
 }
-
-.box {
-  max-width: 400px;
-  margin: 50px auto;
-  background: white;
-  border-radius: 5px;
-  padding: 20px;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+h2 {
+  color: #a683e3;
+  padding: 10px;
 }
-
 
 form.edit {
   display: flex;
-}
-
-.item {
-  min-height: 70px;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #f1f1f1;
-}
-
-.item:last-child {
-  border-bottom: 0;
-}
-
-input[type="checkbox"] {
-  margin: 20px;
-  margin-left: 0;
 }
 
 p {
@@ -61,23 +39,6 @@ form {
   margin-left: 20px;
 }
 
-button.add {
-  min-height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border-color: transparent;
-  background-color: #a683e3;
-  color: #fff;
-  font-size: 30px;
-  border-width: 0;
-}
-
-button.edit {
-  margin-left: 0px;
-  margin-right: 20px;
-  border: none;
-  background: none;
-}
 
 .icon {
   height: 20px;
@@ -85,9 +46,9 @@ button.edit {
 
 input[type="text"] {
   text-align: left;
-  height: 60px;
+  height: 20px;
   top: 10px;
-  border: none;
+  border: 50%;
   background: transparent;
   font-size: 20px;
   font-weight: 200;
@@ -120,8 +81,8 @@ footer {
 #heading {
   display:block;
   margin: 20px auto;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
   background-color: #a683e3;
   height: 60px;
   width: 500px;
@@ -164,7 +125,7 @@ footer {
 }
 .input-card input[type="text"] {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: .5px solid #ccc;
   border-radius: 4px;
   width: 80%;
   font-size: 16px;
@@ -177,7 +138,7 @@ footer {
 .submit {
   min-height: 50px;
   width: 100px;
-  border-radius: 25px;
+  border-radius: 50px;
   border-color: transparent;
   background-color: #a683e3;
   color: #fff;

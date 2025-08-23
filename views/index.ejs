@@ -7,15 +7,17 @@
 </head>
 <body>
     <%- include('partials/header.ejs'); -%>
-    <div id="heading">
-        <h1 >User Authentication</h1>
+    <div  id="heading">
+        <h1 >Wisen Media Company</h1>
     </div>
-    <form action="/add" method="POST">
+    <div  class="input-card">
+        <h2>Enter Your Details</h2>             
+    <form  action="/add" method="POST">
         <label id= "id" for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" required>
+        <input type="text" id=".input-card input"  placeholder="Enter fist name"  name="firstName" required>
         <br>
         <label id="id" for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" required>
+        <input type="text" id=".input-card input"  placeholder="Enter last Name"    name="lastName" required>
         <br>
         <button  class="submit" type="submit">Submit</button>
      <%- include('partials/footer.ejs'); -%>
